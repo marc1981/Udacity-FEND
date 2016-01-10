@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Portfolio Design</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="nametag col-md-10 col-md-offset-2">
+          <div class="container-fluid">
+            <div class="row headerRow">
+              <div class="logoContainer col-md-2 col-xs-2">
+                <div id="logo" data-toggle="modal" data-target="#logodescription">M</div>
+              </div>
+              <div class="nameContainer col-md-10 col-xs-10">
+                <h1 class="text-uppercase" id="name">Marc Anderson</h1>
+                <span class="job">Front-End Developer Novice</span><br>
+                <span class="quote">"Fake it, 'til you make it."</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 col-xs-2 colorChoices">
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+          <div class="box4"></div>
+          <div class="colorCodes">
+            #960696<br>
+            #564C56<br>
+            #000000<br>
+            #081F4C
+          </div>
+        </div>
+        <div class="col-md-10 col-xs-10">
+          <div class="imageBox">
+            <img id="night" src="images/night.jpeg" alt="Night sky.">
+          </div>
+          <div class="imageDescription">
+            Opensource image provided by <em>Unsplash.com</em>. <a href="https://goo.gl/GlQHnE">Link to Original</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="lowerPage row">
+        <div class="col-md-10 col-md-offset-2">
+          <h2>More Open Source Images of the Night</h2>
+        </div>
+        <div class="holder2 col-md-2">
+        </div>
+        <div class="additionalImages col-md-10">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="first col-md-4">
+                <img id="firstImage" src="images/dustysky.jpeg" alt="Sand-dunes at night." data-toggle="modal" data-target="#project1">
+                <h3>Sand Dunes</h3>
+                <a href="https://goo.gl/czuI37">https://goo.gl/czuI37</a>
+              </div>
+              <div class="second col-md-4">
+                <a href="https://goo.gl/ut1xwJ">
+                  <img id="middleImage" src="images/nightforest.jpeg" alt="Night sky with forest.">
+                </a>
+                <h3>Woods</h3>
+                <a href="https://goo.gl/ut1xwJ">https://goo.gl/ut1xwJ</a>
+              </div>
+              <div class="third col-md-4">
+                <a href="https://goo.gl/rQMsZg">
+                  <img id="thirdImage" src="images/nightfence.jpeg" alt="Night sky with fence.">
+                </a>
+                <h3>Fence</h3>
+                <a href="https://goo.gl/rQMsZg">https://goo.gl/rQMsZg</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Learning about interactivity.</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/dustysky.jpeg" alt="This is an image of sand dunes at night.">
+            This was my first project in this class. I learned a lot about HTML and CSS. I also managed to have fun doing it. Actually, this was awesome! I am really looking forward to the next project and learning to be a real-life web-developer.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal 2-->
+    <div class="modal fade" id="logodescription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myLogo">About my logo.</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/logo.png" alt="This is my logo.">
+            I created my own symbol! Now I can be a superhero. Without any super powers. Or costume. Never mind.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
