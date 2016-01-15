@@ -10,4 +10,7 @@
 7. **Project 6:** Feed reader testing. The purpose of this project was to become familiar with the Behavior-Driven Development (BDD) framework, [Jasmine](http://jasmine.github.io/). A web-based, RSS feed-reader was subjected to a series of pass-fail test suites in order to ensure its functionality.
 
 ##
+![Front End Web Developer Certificate](https://github.com/marc1981/Udacity-FEND/blob/master/FEND.jpg)
+
+##
 ![Intro to Programming Certificate](https://github.com/marc1981/Udacity-FEND/blob/master/Intro-to-Programming.jpg)
