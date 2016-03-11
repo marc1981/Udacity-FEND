@@ -1,5 +1,7 @@
 ## This repository contains all of the projects that were completed for [Udacity's](https://www.udacity.com) Front-End Web Development Nanodegree.
 
+Profile and Portfolio can be found [here](https://profiles.udacity.com/u/marcanderson).
+
 ## List of projects:
 1. **Project 0:** A very simple website. The purpose of this was to introduce the student to some of the basics of HTML and CSS as well as a few of the principles of design and layout.
 2. **Project 1:** A mock portfolio. This was created as a demo version of an actual portfolio. Again, it was a way to familiarize the student with design and layout, bu this time it introduced Bootstrap and jQuery.
