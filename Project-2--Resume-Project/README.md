@@ -1,0 +1,1 @@
+**Project 2:** Online resume. Using jQuery, a resume was made that included a Google map showing the locations where the student works and lives.
